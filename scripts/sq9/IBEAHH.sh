@@ -1,3 +1,5 @@
+for i in $(seq 1 30)
+do
 java -jar ../../target/IBEAHH.jar \
 				1000 \
 				2500000  \
@@ -15,3 +17,4 @@ java -jar ../../target/IBEAHH.jar \
 				HHHHPPPPHHHHHHHHHHHHPPPPPPHHHHHHHHHHHHPPPHHHHHHHHHHHHPPPHHHHHHHHHHHHPPPHPPHHPPHHPPHPH \
 				false \
 				20 &
+done				
