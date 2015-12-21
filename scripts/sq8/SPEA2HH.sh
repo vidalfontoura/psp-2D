@@ -1,3 +1,6 @@
+RESULT="spea2-result"
+mkdir $RESULT
+
 for i in $(seq 1 30)
 do
 java -jar ../../target/SPEA2HH.jar \
@@ -10,7 +13,7 @@ java -jar ../../target/SPEA2HH.jar \
 				1.0 \
 				1 \
 				1 \
-				result-$i \
+				$RESULT/result-$i \
 				0 \
 				0 \
 				Random \

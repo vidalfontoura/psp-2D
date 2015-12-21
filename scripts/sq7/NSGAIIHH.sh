@@ -1,3 +1,6 @@
+RESULT="nsgaii-result"
+mkdir $RESULT
+
 for i in $(seq 1 30)
 do
 java -jar ../../target/NSGAIIHH.jar \
@@ -9,7 +12,7 @@ java -jar ../../target/NSGAIIHH.jar \
 				1.0 \
 				1 \
 				1 \
-				result-$i \
+				$RESULT/result-$i \
 				0 \
 				0 \
 				Random \

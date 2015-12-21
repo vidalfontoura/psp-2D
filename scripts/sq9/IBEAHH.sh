@@ -1,3 +1,6 @@
+RESULT="ibea-result"
+mkdir $RESULT
+
 for i in $(seq 1 30)
 do
 java -jar ../../target/IBEAHH.jar \
@@ -10,7 +13,7 @@ java -jar ../../target/IBEAHH.jar \
 				1.0 \
 				1 \
 				1 \
-				results \
+				$RESULT/result-$i \
 				0 \
 				0 \
 				Random \
