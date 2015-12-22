@@ -1,7 +1,7 @@
 RESULT="ibea-result"
 mkdir $RESULT
 
-for i in $(seq 1 30)
+for i in $(seq 1 10)
 do
 java -jar ../../target/IBEAHH.jar \
 				1000 \

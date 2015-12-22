@@ -6,7 +6,7 @@ java -jar ../../target/IBEAHH.jar \
 				200 \
 				1.0 \
 				1.0 \
-				1 \
+				30 \
 				1 \
 				results \
 				0 \
