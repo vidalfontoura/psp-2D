@@ -1,4 +1,4 @@
-RESULT="nsgaii-result-new"
+RESULT="nsgaii-result"
 mkdir $RESULT
 
 for i in $(seq 1 10)

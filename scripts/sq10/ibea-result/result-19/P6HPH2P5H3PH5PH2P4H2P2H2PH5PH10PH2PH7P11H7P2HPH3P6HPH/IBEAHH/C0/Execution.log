@@ -1,0 +1,19 @@
+Algorithm configured with: 
+Pop: 1000
+Aux Pop: 200
+CrP: 1.0
+MtP: 1.0
+List of crossover: 
+SinglePointCrossover
+IntegerTwoPointsCrossover
+MultiPointsCrossover
+List of mutations: 
+BitFlipMutation
+LoopMoveOperator
+LocalMoveOperator
+SegmentMutation
+OppositeMoveOperator
+Execution: 1
+Generation: 0; 
+d: 24.698178070456937; energy: -7.0; 1,2,1,0,1,0,1,1,2,0,1,2,0,2,0,0,1,0,2,2,1,0,1,1,0,0,1,2,2,0,2,2,0,2,1,1,0,2,2,0,1,2,1,0,1,0,1,1,0,2,0,2,2,1,2,0,0,2,0,1,0,2,0,1,2,2,1,1,1,2,0,0,1,0,1,1,2,2,1,1,0,2,2,0,1,2,1,2,0,2,0,0,2,2,1,2,0
+Best fitness found so far: -7.0; distance: 24.698178070456937
