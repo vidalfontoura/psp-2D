@@ -5,7 +5,7 @@ java -jar ../../target/NSGAIIHH.jar \
 				BitFlipMutation,LoopMoveOperator,LocalMoveOperator,SegmentMutation,OppositeMoveOperator \
 				1.0 \
 				1.0 \
-				1 \
+				30 \
 				1 \
 				results \
 				0 \

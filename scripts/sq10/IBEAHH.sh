@@ -1,10 +1,10 @@
-RESULT="ibea-result"
+RESULT="ibea-result-config1"
 mkdir $RESULT
 
-for i in $(seq 1 30)
+for i in $(seq 11 13)
 do
 java -jar ../../target/IBEAHH.jar \
-				1000 \
+				5000 \
 				2500000  \
 				SinglePointCrossover,IntegerTwoPointsCrossover,MultiPointsCrossover \
 				BitFlipMutation,LoopMoveOperator,LocalMoveOperator,SegmentMutation,OppositeMoveOperator \

@@ -1,7 +1,7 @@
 RESULT="nsgaii-result"
-mkdir $RESULT
+#mkdir $RESULT
 
-for i in $(seq 1 30)
+for i in $(seq 11 20)
 do
 java -jar ../../target/NSGAIIHH.jar \
 				1000 \
