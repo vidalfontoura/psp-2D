@@ -1,22 +1,17 @@
 RESULT="nsgaii-result"
 mkdir $RESULT
 
-for i in $(seq 11 20)
+for i in $(seq 1 10)
 do
-java -jar ../../target/NSGAIIHH.jar \
-				2500 \
+java -jar ../../target/NSGAII.jar \
+				1000 \
 				2500000  \
-				SinglePointCrossover,IntegerTwoPointsCrossover,MultiPointsCrossover \
-				BitFlipMutation,LoopMoveOperator,LocalMoveOperator,SegmentMutation,OppositeMoveOperator \
-				1.0 \
-				1.0 \
+				SinglePointCrossover \
+				BitFlipMutation \
+				0.1 \
+				0.01 \
 				1 \
 				1 \
 				$RESULT/result-$i \
-				0 \
-				0 \
-				Random \
-				PPPHHPPHHHHPPHHHPHHPHHPHHHHPPPPPPPPHHHHHHPPHHHHHHPPPPPPPPPHPHHPHHHHHHHHHHHPPHHHPHHPHPPHPHHHPPPPPPHHH \
-				false \
-				20 &
+				PPPHHPPHHHHPPHHHPHHPHHPHHHHPPPPPPPPHHHHHHPPHHHHHHPPPPPPPPPHPHHPHHHHHHHHHHHPPHHHPHHPHPPHPHHHPPPPPPHHH &
 done				
