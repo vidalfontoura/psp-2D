@@ -8,3 +8,4 @@ Max Evaluations: 25000
 Aux Pop: 200
 Backtrack Percentage: 0.0
 ProteinChain: HPHPPHHPHHPHPHHPPHPH
+Total time taken to execute 30 times : 193(seconds)
