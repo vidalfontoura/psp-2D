@@ -1,0 +1,20 @@
+Algorithm configured with: 
+Pop: 1000
+CrP: 0.9
+MtP: 0.01
+
+Crossover: class org.uma.jmetal.operator.crossover.SinglePointCrossover
+Mutation: class org.uma.jmetal.operator.mutation.BitFlipMutation
+Execution: 1
+Generation: 0; 
+d: 100.0; energy: 0.0; 1,2,1,1,1,1,1,0,1,0,1,0,0,0,2,0,0,1,2,1,1,1,2,2,2,1,2,0,1,2,1,1,0,2,0,0,1,1,2,1,2,2,1,0,0,2
+Best fitness found so far: 0.0; distance: 100.0
+Generation: 1; 
+d: 11.40175425099138; energy: -11.0; 0,2,0,0,2,0,0,1,1,0,0,0,1,2,0,1,2,1,1,2,2,1,2,2,0,2,0,1,0,0,1,2,1,0,0,0,1,2,2,0,1,2,2,0,0,0
+Best fitness found so far: -11.0; distance: 11.40175425099138
+Generation: 2; 
+d: 9.055385138137417; energy: -12.0; 0,0,2,0,0,1,2,2,0,2,2,0,1,2,1,2,0,2,2,2,0,0,2,2,2,1,0,0,0,0,2,1,0,1,2,0,1,1,0,1,2,1,0,1,2,2
+Best fitness found so far: -12.0; distance: 9.055385138137417
+Generation: 3; 
+d: 11.704699910719626; energy: -13.0; 0,1,2,1,2,2,1,2,2,2,0,0,0,1,0,0,1,2,0,0,1,1,1,2,2,0,0,0,0,0,1,2,2,2,0,2,1,0,1,0,0,0,1,0,0,0
+Best fitness found so far: -13.0; distance: 11.704699910719626
