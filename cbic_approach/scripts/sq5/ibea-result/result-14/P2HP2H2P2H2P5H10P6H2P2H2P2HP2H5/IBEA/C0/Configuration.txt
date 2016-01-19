@@ -1,0 +1,10 @@
+Algorithm: IBEA
+Crossover: SinglePointCrossover
+Cx Rate: 0.9
+Mutation: BitFlipMutation
+Mut Rate: 0.01
+Population: 1000
+Max Evaluations: 2500000
+Aux Pop: 200
+Backtrack Percentage: 0.0
+ProteinChain: PPHPPHHPPHHPPPPPHHHHHHHHHHPPPPPPHHPPHHPPHPPHHHHH

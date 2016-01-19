@@ -1,18 +1,18 @@
 RESULT="ibea-result"
 mkdir $RESULT
 
-for i in $(seq 1 10)
+for i in $(seq 21 30)
 do
 java -jar ../../target/IBEA.jar \
 				2500 \
-				2500000  \
+				2500000 \
 				SinglePointCrossover \
 				BitFlipMutation \
-				2000 \
+				1000 \
 				0.9 \
 				0.01 \
 				1 \
 				1 \
-				$RESULT/result-$i \			
+				$RESULT/result-$i \
 				PPHHHPHHHHHHHHPPPHHHHHHHHHHPHPPPHHHHHHHHHHHHPPPPHHHHHHPHHPHP &				
-done				
+done

@@ -1,0 +1,2 @@
+C0: 3000,200,2500000,SinglePointCrossover,0.9,BitFlipMutation,0.01, bt=0.0
+C0: 3000,200,2500000,SinglePointCrossover,0.9,BitFlipMutation,0.01, bt=0.0
