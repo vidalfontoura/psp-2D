@@ -1,11 +1,11 @@
 RESULT="nsgaii-result"
 mkdir $RESULT
 
-for i in $(seq 1 10)
+for i in $(seq 21 30)
 do
-java -jar ../../target/NSGAIIHH.jar \
+java -jar ../../target/NSGAII.jar \
 				1000 \
-				2500000  \
+				2500000 \
 				SinglePointCrossover \
 				BitFlipMutation \
 				0 \
@@ -15,4 +15,4 @@ java -jar ../../target/NSGAIIHH.jar \
 				1 \
 				$RESULT/result-$i \
 				HHHHPPPPHHHHHHHHHHHHPPPPPPHHHHHHHHHHHHPPPHHHHHHHHHHHHPPPHHHHHHHHHHHHPPPHPPHHPPHHPPHPH &
-done				
+done

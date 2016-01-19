@@ -1,0 +1,1 @@
+C0: 100,200,25000,SinglePointCrossover,0.9,BitFlipMutation,0.01, bt=0.0
