@@ -1,0 +1,11 @@
+Algorithm: IBEA
+Crossover: SinglePointCrossover
+Cx Rate: 0.9
+Mutation: BitFlipMutation
+Mut Rate: 0.01
+Population: 500
+Max Evaluations: 250000
+Aux Pop: 200
+Backtrack Percentage: 0.0
+ProteinChain: PPHPPHHPPPPHHPPPPHHPPPPHH
+Total time taken to execute 30 times : 16698(seconds)

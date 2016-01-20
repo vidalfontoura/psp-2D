@@ -1,0 +1,16 @@
+Algorithm: NSGAIIHH
+Cx Rate: 1.0
+Mut Rate: 1.0
+Population: 100
+Max Evaluations: 25000
+List of crossovers: 
+SinglePointCrossover
+IntegerTwoPointsCrossover
+MultiPointsCrossover
+BitFlipMutation
+LoopMoveOperator
+LocalMoveOperator
+SegmentMutation
+OppositeMoveOperator
+ProteinChain: HHPPHPPHPPHPPHPPHPPHPPHH
+Total time taken to execute 30 times : 102(seconds)
