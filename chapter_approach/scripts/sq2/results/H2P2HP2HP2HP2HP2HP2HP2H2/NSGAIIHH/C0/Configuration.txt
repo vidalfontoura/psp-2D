@@ -13,4 +13,4 @@ LocalMoveOperator
 SegmentMutation
 OppositeMoveOperator
 ProteinChain: HHPPHPPHPPHPPHPPHPPHPPHH
-Total time taken to execute 1 times : 3(seconds)
+Total time taken to execute 30 times : 102(seconds)
