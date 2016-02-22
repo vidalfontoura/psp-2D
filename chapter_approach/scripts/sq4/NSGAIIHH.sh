@@ -11,6 +11,6 @@ java -jar ../../target/NSGAIIHH.jar \
 				0 \
 				0 \
 				Random \
-				PPPHHPPHHPPPPPPHHHHHHHPPHHPPPPHHPPHPP \
+				PPPHHPPHHPPPPPHHHHHHHPPHHPPPPHHPPHPP \
 				false \
 				20 &
