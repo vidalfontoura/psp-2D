@@ -12,6 +12,6 @@ java -jar ../../target/IBEAHH.jar \
 				0 \
 				0 \
 				Random \
-				PPPHHPPHHPPPPPPHHHHHHHPPHHPPPPHHPPHPP \
+				PPPHHPPHHPPPPPHHHHHHHPPHHPPPPHHPPHPP \
 				false \
 				20 &

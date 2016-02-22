@@ -9,4 +9,4 @@ java -jar ../../target/IBEA.jar \
 				30 \
 				1 \
 				results \
-				PPPHHPPHHPPPPPPHHHHHHHPPHHPPPPHHPPHPP &
+				PPPHHPPHHPPPPPHHHHHHHPPHHPPPPHHPPHPP &
