@@ -1,16 +1,10 @@
-Algorithm: NSGAIIHH
-Cx Rate: 1.0
-Mut Rate: 1.0
-Population: 1000
+Algorithm: NSGAII
+Crossover: class org.uma.jmetal.operator.crossover.SinglePointCrossover
+Cx Rate: 0.9
+Mutation: class org.uma.jmetal.operator.mutation.BitFlipMutation
+Mut Rate: 0.01
+Population: 2500
 Max Evaluations: 2500000
-List of crossovers: 
-SinglePointCrossover
-IntegerTwoPointsCrossover
-MultiPointsCrossover
-BitFlipMutation
-LoopMoveOperator
-LocalMoveOperator
-SegmentMutation
-OppositeMoveOperator
+Backtrack Percentage: 0.0
 ProteinChain: PPHHHPHHHHHHHHPPPHHHHHHHHHHPHPPPHHHHHHHHHHHHPPPPHHHHHHPHHPHP
-Total time taken to execute 1 times : 1736(seconds)
+Total time taken to execute 1 times : 1906(seconds)
