@@ -1,7 +1,7 @@
 Algorithm: IBEAHH
 Cx Rate: 1.0
 Mut Rate: 1.0
-Population: 2500
+Population: 5000
 Max Evaluations: 2500000
 Aux Pop: 2000
 List of crossovers: 
@@ -14,4 +14,3 @@ LocalMoveOperator
 SegmentMutation
 OppositeMoveOperator
 ProteinChain: PPHHHPHHHHHHHHPPPHHHHHHHHHHPHPPPHHHHHHHHHHHHPPPPHHHHHHPHHPHP
-Total time taken to execute 1 times : 144336(seconds)
